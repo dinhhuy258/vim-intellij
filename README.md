@@ -18,7 +18,9 @@ The default mapping is
 - <Leader>cgh to find the hierarchies for the symbol under cursor
 - <Leader>cgu to find all of the occurrences of the symbol under cursor
 - <Leader>co to open the current file from vim by intelliJ
-- <Leader>ci to suggest possible imports by the symbol under cursor
+- <Leader>ci to suggest possible imports by the symbol under cursor 
+- g[ to go to next insight
+- g] to go to previous insight
 
 if you want to make your own custom keymap, then put the following in your `.vimrc`
 

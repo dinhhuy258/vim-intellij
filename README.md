@@ -58,17 +58,25 @@ Execute the script to run IntelliJ in headless mode
 ./vintellij.sh ${project-path}
 ```
 
-## Vim functions
+## Vintellij commands
 
-- `vintellij#SuggestImports()`: suggest a list of importable classes for an element at the current cursor
+- `VintellijComradeEnable`: enable vintellij, the plugin will not be enabled automatically, you must do it by yourself
 
-- `vintellij#GoToDefinition()`: go to the position where an element at the current cursor is defined
+- `VintellijQuickFix`: quick fix at current cursor
 
-- `vintellij#FindHierarchy()`: go to the subclasses or overriding methods for the class/method at the current cursor (project scope only)
+- `VintellijNextInsight`: go to next insight
 
-- `vintellij#FindUsage()`: list all the occurrences of the symbol at the current cursor (project scope only)
+- `VintellijPrevInsight`: go to previous insight
 
-- `vintellij#OpenFile()`: open the current file in Intellij
+- `VintellijSuggestImports`: suggest a list of importable classes for an element at the current cursor
+
+- `VintellijGoToDefinition`: go to the position where an element at the current cursor is defined
+
+- `VintellijFindHierarchy`: go to the subclasses or overriding methods for the class/method at the current cursor (project scope only)
+
+- `VintellijFindUsage`: list all the occurrences of the symbol at the current cursor (project scope only)
+
+- `VintellijOpenFile`: open the current file in Intellij
 
 ## Features
 

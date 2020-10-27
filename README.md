@@ -11,7 +11,7 @@ Make IntelliJ as a server language protocol.
 #### Install
 
 ```
-Plug 'dinhhuy258/vintellij'
+Plug 'dinhhuy258/vintellij', {'branch': 'comrade'}
 ```
 The default mapping is
 - <Leader>cgd to go to the definition from the symbol under cursor
@@ -79,6 +79,12 @@ Execute the script to run IntelliJ in headless mode
 | Find hierarchies | :white_check_mark: | :white_check_mark: |
 | Find usages | :white_check_mark: | :white_check_mark: |
 | Auto complete | :white_check_mark: | :white_check_mark: |
+
+## Vintellij versions
+
+- `master`: This is an original version of vintellij
+- `comrade`: This is currently the main branch of vintellij which is already integrated with comrade plugin
+- `lsp`: This branch is in development
 
 ## Credits
 
